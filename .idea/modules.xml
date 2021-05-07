@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/project_dinosaur.iml" filepath="$PROJECT_DIR$/.idea/project_dinosaur.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../servicetools-collection/.idea/servicetools-collection.iml" filepath="$PROJECT_DIR$/../../../servicetools-collection/.idea/servicetools-collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../shift-online/.idea/shift-online.iml" filepath="$PROJECT_DIR$/../../../shift-online/.idea/shift-online.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../st-assets/.idea/st-assets.iml" filepath="$PROJECT_DIR$/../../../st-assets/.idea/st-assets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../st-frontend/.idea/st-frontend.iml" filepath="$PROJECT_DIR$/../../../st-frontend/.idea/st-frontend.iml" />
+    </modules>
+  </component>
+</project>

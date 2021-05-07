@@ -1,0 +1,29 @@
+{
+  "name": "project_dinosaur",
+  "version": "1.0.0",
+  "description": "Intermediate Javascript Nanodegree",
+  "private": "true",
+  "repository": "https://github.com/udacity/Javascript.git",
+  "author": "Imran Khan <m_imran_khan@me.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "lodash": "^4.17.20",
+    "webpack": "5.21.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "css-loader": "^5.0.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.0.0",
+    "style-loader": "^2.0.0"
+  },
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack serve --open"
+  }
+}

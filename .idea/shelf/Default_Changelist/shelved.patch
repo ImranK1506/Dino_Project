@@ -1,0 +1,82 @@
+Index: app.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app.js b/src/app.js
+rename from app.js
+rename to src/app.js
+--- a/app.js	(revision bfabb16ca8fc975bbce3113f01aed144a2fe4640)
++++ b/src/app.js	(date 1612693329080)
+@@ -1,6 +1,16 @@
+-
+     // Create Dino Constructor
+     // Source for this approach: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
++    /**
++     *
++     * @param species
++     * @param weight
++     * @param height
++     * @param diet
++     * @param where
++     * @param when
++     * @param fact
++     * @constructor
++     */
+     function DinoData(species, weight, height, diet, where, when, fact) {
+         this.species = species;
+         this.weight = weight;
+@@ -9,11 +19,21 @@
+         this.where = where;
+         this.when = when;
+         this.fact = fact;
++        this.image = "images/" + this.species + "png";
+       console.log('Species' + this.species)
+     }
+ 
+     // Create Dino Objects
++    /**
++     *
++     * @type {*[]}
++     */
++    const Dinos = JSON.parse("dino.json")
+ 
++    fetch("dino.json")
++        .then(response => response.json())
++        .then(data => console.log(data))
++    console.log(Dinos)
+ 
+     // Create Human Object
+ 
+@@ -21,22 +41,26 @@
+ 
+ 
+     // Create Dino Compare Method 1
+-    // NOTE: Weight in JSON file is in lbs, height in inches. 
++    // NOTE: Weight in JSON file is in lbs, height in inches.
+ 
+-    
++
+     // Create Dino Compare Method 2
+     // NOTE: Weight in JSON file is in lbs, height in inches.
+ 
+-    
++
+     // Create Dino Compare Method 3
+     // NOTE: Weight in JSON file is in lbs, height in inches.
+ 
+ 
+     // Generate Tiles for each Dino in Array
+-  
++
+         // Add tiles to DOM
+ 
+     // Remove form from screen
+ 
+ 
+ // On button click, prepare and display infographic
++document.getElementById('btn')
++    .addEventListener('click', () => {
++        console.log('click')
++    })
+\ No newline at end of file

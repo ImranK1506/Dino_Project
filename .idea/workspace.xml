@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1820a2af-d93b-43b5-9411-09911c4cb9f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../st-assets/Jenkinsfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/privacy/privacy.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/welcome/welcome.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/which-modem/which-modem.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/wifi-enhancers-yes/wifi-enhancers-yes.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/wifi-enhancers/wifi-enhancers.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/privacy/privacy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/privacy/privacy.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/welcome/welcome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/welcome/welcome.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/which-modem/which-modem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/which-modem/which-modem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/wifi-advice.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/wifi-advice.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/wifi-advice.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/wifi-advice.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/wifi-enhancers-yes/wifi-enhancers-yes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/wifi-enhancers-yes/wifi-enhancers-yes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/wifi-enhancers/wifi-enhancers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/wifi-enhancers/wifi-enhancers.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1mNQOrskLERdE149Xv8HnfHz5Bn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist/assets/images" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/../../../st-frontend/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist/assets/images" />
+      <recent name="$PROJECT_DIR$/dist" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/dist" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/assets/scss" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1820a2af-d93b-43b5-9411-09911c4cb9f6" name="Default Changelist" comment="" />
+      <created>1609331541305</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609331541305</updated>
+      <workItem from="1609331546459" duration="3281000" />
+      <workItem from="1610103180028" duration="783000" />
+      <workItem from="1610104248731" duration="713000" />
+      <workItem from="1610190399949" duration="383000" />
+      <workItem from="1610714250467" duration="1186000" />
+      <workItem from="1610900836092" duration="880000" />
+      <workItem from="1612171746424" duration="354000" />
+      <workItem from="1612186265027" duration="80000" />
+      <workItem from="1612275017400" duration="2817000" />
+      <workItem from="1612680215337" duration="5883000" />
+      <workItem from="1612778365765" duration="7914000" />
+      <workItem from="1614939139802" duration="10013000" />
+      <workItem from="1615051487976" duration="16696000" />
+      <workItem from="1615294153522" duration="7610000" />
+      <workItem from="1615633763925" duration="2300000" />
+      <workItem from="1615714757943" duration="8095000" />
+      <workItem from="1615797407828" duration="4710000" />
+      <workItem from="1616226516871" duration="19114000" />
+      <workItem from="1617025983330" duration="3391000" />
+      <workItem from="1617435324995" duration="27324000" />
+      <workItem from="1617709842522" duration="31274000" />
+      <workItem from="1618250081154" duration="112000" />
+      <workItem from="1618250220164" duration="5450000" />
+      <workItem from="1618565964226" duration="73950000" />
+      <workItem from="1619765167421" duration="7203000" />
+      <workItem from="1619788464211" duration="4528000" />
+      <workItem from="1619967785510" duration="37724000" />
+      <workItem from="1620252618392" duration="29789000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
