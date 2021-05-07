@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1820a2af-d93b-43b5-9411-09911c4cb9f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../st-assets/Jenkinsfile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/privacy/privacy.spec.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/welcome/welcome.spec.ts" afterDir="false" />
@@ -106,7 +107,7 @@
       <workItem from="1619765167421" duration="7203000" />
       <workItem from="1619788464211" duration="4528000" />
       <workItem from="1619967785510" duration="37724000" />
-      <workItem from="1620252618392" duration="29789000" />
+      <workItem from="1620252618392" duration="30004000" />
     </task>
     <servers />
   </component>
