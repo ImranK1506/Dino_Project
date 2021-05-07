@@ -1,7 +1,6 @@
 import './assets/css/app.css'
 
 // Global variables
-// Source: https://www.semicolonworld.com/question/68321/how-to-disable-a-button-if-one-of-the-inputs-is-empty-pure-javascript
 let button = document.querySelector('#btn');
 let formWrapper = document.querySelector('#dino-compare');
 let inputFields = [...document.querySelectorAll('input')];
@@ -66,6 +65,7 @@ function HumanObject() {
 }
 
 // Validate input fields
+// Source: https://www.semicolonworld.com/question/68321/how-to-disable-a-button-if-one-of-the-inputs-is-empty-pure-javascript
 function validateInput() {
   button.disabled = inputFields.some(input => !input.value);
 }
