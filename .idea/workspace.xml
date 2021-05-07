@@ -8,7 +8,8 @@
       <change afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/which-modem/which-modem.spec.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/wifi-enhancers-yes/wifi-enhancers-yes.spec.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/wifi-enhancers/wifi-enhancers.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/privacy/privacy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/privacy/privacy.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/welcome/welcome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/welcome/welcome.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/which-modem/which-modem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/which-modem/which-modem.tsx" afterDir="false" />
@@ -107,7 +108,7 @@
       <workItem from="1619765167421" duration="7203000" />
       <workItem from="1619788464211" duration="4528000" />
       <workItem from="1619967785510" duration="37724000" />
-      <workItem from="1620252618392" duration="30537000" />
+      <workItem from="1620252618392" duration="30935000" />
     </task>
     <servers />
   </component>

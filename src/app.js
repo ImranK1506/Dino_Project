@@ -25,7 +25,7 @@ let dino = [];
 const dino_data = require('./dino.json')
 const dino_object = dino_data.dinos;
 dino = dino_object.map(dinoData => {
-  new DinoData(
+  return new DinoData(
       dinoData.species,
       dinoData.weight,
       dinoData.height,
@@ -138,8 +138,12 @@ const submitButton = () => {
       'click',
       (event) => {
         event.preventDefault();
+        // Log dino data
+        console.log(dino)
+
         // Get Human object
         HumanObject()
+        console.log(HumanObject())
 
         // Remove form from the DOM and add Grid
         generateTiles();
