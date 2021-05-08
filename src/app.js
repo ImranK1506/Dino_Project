@@ -35,9 +35,6 @@ dino = dino_object.map(dinoData => {
       dinoData.image
   )
 });
-// dino.forEach((value, key) => {
-//   console.log(value, key)
-// })
 
 // Create Human Constructor
 // Source: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS
@@ -50,6 +47,8 @@ function HumanData(name, height, weight, diet, image) {
 }
 
 // Create Human Object
+let human = null;
+
 function HumanObject() {
   const humanName = document.getElementById('name').value;
 // Source for converting values to numbers: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
@@ -77,51 +76,62 @@ validateInput();
 
 // Create Dino Compare Method 1
 // NOTE: Weight in JSON file is in lbs, height in inches.
+DinoData.prototype.compareHeight = (humanHeight, humanName) => {
+  this.height > humanHeight
+      ? console.log(`${this.species} is bigger than ${humanName}`)
+      : console.log(`${this.species} is smaller than ${humanName}`)
+}
 
 // Create Dino Compare Method 2
 // NOTE: Weight in JSON file is in lbs, height in inches.
-const compareWeight = () => {
-
+DinoData.prototype.compareWeight = (humanWeight, humanName) => {
+  this.weight > humanWeight
+      ? console.log(`${this.species} is heaver than ${humanName}`)
+      : console.log(`${this.species} is lighter than ${humanName}`)
 }
 
 // Create Dino Compare Method 3
 // NOTE: Weight in JSON file is in lbs, height in inches.
-const compareDiet = () => {
-
+DinoData.prototype.compareDiet = (humanDiet, humanName) => {
+  this.diet !== humanDiet
+      ? console.log(`${this.species} eats a lota ${this.diet} while ${humanName} prefers ${this.species} burgers.`)
+      : console.log(`${this.species} and ${humanName} both prefer ${this.diet}`)
 }
 
 // Get Random fact
-const randomFact = () => {
-
-}
+// const randomFact = () => {
+//
+// }
 
 // Generate Tiles for each Dino in Array
-const generateTiles = () => {
+const generateTiles = (dino, human) => {
+  // Remove form
+  document.getElementById('dino-compare').remove();
+
   // iterate over dino data and retrieve it's value
-  for (let dino of dino_object.values()) {
+  // for (let dino of dino_object.values()) {
+  dino.forEach((dinoItem) => {
     // Append grid item to parent grid
     const gridContainer = document.querySelector('#grid');
-
-    // Source: https://www.javascripttutorial.net/javascript-dom/javascript-appendchild/
     // Create grid items
     const gridItem = document.createElement('div');
     gridItem.className += 'grid-item';
     gridContainer.appendChild(gridItem);
 
     const speciesOrName = document.createElement('h3');
-    speciesOrName.innerText = dino.species;
+    speciesOrName.innerText = dinoItem.species
     gridItem.appendChild(speciesOrName);
 
     const image = document.createElement('img');
-    image.src = `./assets/images/${dino.species.toLowerCase()}.png`;
+    image.src = `./assets/images/${dinoItem.species.toLowerCase()}.png`;
     gridItem.appendChild(image);
 
     const facts = document.createElement('p');
-    facts.innerText = dino.fact;
+    facts.innerText = dinoItem.fact;
     gridItem.appendChild(facts);
-  }
 
-  document.getElementById('dino-compare').remove();
+    console.log(`${dinoItem} `)
+  })
 }
 
 // Add tiles to DOM
@@ -142,11 +152,11 @@ const submitButton = () => {
         console.log(dino)
 
         // Get Human object
-        HumanObject()
-        console.log(HumanObject())
+        human = HumanObject()
+        console.log(human)
 
         // Remove form from the DOM and add Grid
-        generateTiles();
+        generateTiles(dino, human);
       })
 }
 
