@@ -131,7 +131,7 @@ const generateDinoTiles = (species, image, fact) => {
   gridItem.appendChild(dinoSpecies);
 
   const dinoImage = document.createElement('img');
-  dinoImage.src = `./assets/images/${image}`
+  dinoImage.src = `./assets/images/${species.toLowerCase()}.png`
   gridItem.appendChild(dinoImage);
 
   const facts = document.createElement('p');
