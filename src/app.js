@@ -57,7 +57,7 @@ function HumanObject() {
   const humanFeet = Number(document.getElementById('feet').value);
   const humanInches = Number(document.getElementById('inches').value);
 // Source for calculating to 1 height: https://www.thecalculatorsite.com/conversions/length/feet-to-inches.php#:~:text=There%20are%2012%20inches%20in,(or%20divide%20by%200.083333333333333)%20.
-  const humanHeight = humanFeet * 12 + humanInches;
+  const humanHeight = (humanFeet * 12) + humanInches;
   const humanWeight = Number(document.getElementById('weight').value);
   const humanDiet = document.getElementById('diet').value.toLowerCase();
 
@@ -73,37 +73,54 @@ function validateInput() {
 formWrapper.addEventListener('input', validateInput);
 validateInput();
 
-// Use IIFE to get human data from form
-
 // Create Dino Compare Method 1
 // NOTE: Weight in JSON file is in lbs, height in inches.
-DinoData.prototype.compareHeight = () => {
-  this.height > human.height
-      ? console.log(`${this.species} is bigger than ${human.name}`)
-      : console.log(`${this.species} is smaller than ${human.name}`)
+const compareHeight = (dino) => {
+  const dinoHeight = JSON.stringify(dino.height);
+  const humanHeight = JSON.stringify(human.height);
+
+  // Using if/ else here. I tried ternary first, but it seems it doesn't work well in a switch case.
+  if (dinoHeight > humanHeight) {
+    return `${dino.species} is taller than ${human.name}.`
+  } else {
+    return `${human.name} is taller than ${dino.species}.`
+  }
 }
 
 // Create Dino Compare Method 2
 // NOTE: Weight in JSON file is in lbs, height in inches.
-DinoData.prototype.compareWeight = (humanWeight, humanName) => {
-  this.weight > humanWeight
-      ? console.log(`${this.species} is heaver than ${humanName}`)
-      : console.log(`${this.species} is lighter than ${humanName}`)
+const compareWeight = (dino) => {
+  const dinoWeight = JSON.stringify(dino.weight);
+  const humanWeight = JSON.stringify(human.weight);
+
+  if (dinoWeight > humanWeight) {
+    return `${dino.species} is heavier than ${human.name}.`
+  } else {
+    return `${human.name} is heavier than ${dino.species}.`
+  }
+
 }
 
 // Create Dino Compare Method 3
 // NOTE: Weight in JSON file is in lbs, height in inches.
-DinoData.prototype.compareDiet = (humanDiet, humanName) => {
-  this.diet !== humanDiet
-      ? console.log(`${this.species} eats a lota ${this.diet} while ${humanName} prefers ${this.species} burgers.`)
-      : console.log(`${this.species} and ${humanName} both prefer ${this.diet}`)
+const compareDiet = (dino) => {
+  const dinoDiet= JSON.stringify(dino.diet);
+  const humanDiet = JSON.stringify(human.diet);
+
+  if (dinoDiet !== humanDiet) {
+    return `${dino.species} prefers a ${dino.diet} diet while ${human.name} is more fund of a ${human.diet} diet.`
+  } else {
+    return `${dino.species} and ${human.name} both prefer a ${dino.diet} diet.`
+  }
 }
 
-// Switch case
+// Random facts
+// Source: https://exploringjs.com/impatient-js/ch_control-flow.html#switch
 const getRandomFact = (dino) => {
   let fact;
-  const randomFact = dino.species !== 'Pigeon'
-      ? Math.floor(Math.random() * 2)
+  const isNotPigeon = dino.species !== 'Pigeon'
+  const randomFact = isNotPigeon
+      ? Math.floor(Math.random() * 6)
       : `${dino.fact}`
   switch (randomFact) {
     case 0:
@@ -114,6 +131,15 @@ const getRandomFact = (dino) => {
       break;
     case 2:
       fact = `The ${dino.species} was roaming the planet around the ${dino.when}`
+      break;
+    case 3:
+      fact = compareHeight(dino)
+      break;
+    case 4:
+      fact = compareWeight(dino)
+      break;
+    case 5:
+      fact = compareDiet(dino)
       break;
     default:
       fact = `${dino.fact}`
@@ -177,9 +203,7 @@ const generateHumanTiles = (name, image) => {
 const submitButton = () => {
   document.querySelector('button').addEventListener(
       'click',
-      (event) => {
-        event.preventDefault();
-
+      () => {
         // Get Human object
         human = HumanObject()
         console.log(human)

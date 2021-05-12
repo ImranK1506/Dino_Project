@@ -3,20 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1820a2af-d93b-43b5-9411-09911c4cb9f6" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../../st-assets/Jenkinsfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/privacy/privacy.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/welcome/welcome.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/which-modem/which-modem.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/wifi-enhancers-yes/wifi-enhancers-yes.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/wifi-enhancers/wifi-enhancers.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/privacy/privacy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/privacy/privacy.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/welcome/welcome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/welcome/welcome.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/which-modem/which-modem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/which-modem/which-modem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/wifi-advice.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/wifi-advice.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/wifi-advice.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/wifi-advice.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/wifi-enhancers-yes/wifi-enhancers-yes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/wifi-enhancers-yes/wifi-enhancers-yes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/wifi-enhancers/wifi-enhancers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../st-frontend/packages/wifi-advice/src/components/wifi-advice/wifi-enhancers/wifi-enhancers.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +96,7 @@
       <workItem from="1619765167421" duration="7203000" />
       <workItem from="1619788464211" duration="4528000" />
       <workItem from="1619967785510" duration="37724000" />
-      <workItem from="1620252618392" duration="83644000" />
+      <workItem from="1620252618392" duration="112102000" />
     </task>
     <servers />
   </component>
