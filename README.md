@@ -1,5 +1,10 @@
 # Object Oriented Javascript 
 
+## Instructions
+* Git clone `https://github.com/ImranK1506/Dino_Project`
+* run `yarn build`
+* run `yarn start`
+
 ## Student Instructions
 
 ### Big Picture
