@@ -4,8 +4,6 @@
     <list default="true" id="1820a2af-d93b-43b5-9411-09911c4cb9f6" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../../st-assets/Jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +95,8 @@
       <workItem from="1619765167421" duration="7203000" />
       <workItem from="1619788464211" duration="4528000" />
       <workItem from="1619967785510" duration="37724000" />
-      <workItem from="1620252618392" duration="113609000" />
+      <workItem from="1620252618392" duration="113836000" />
+      <workItem from="1620858747329" duration="136000" />
     </task>
     <servers />
   </component>
