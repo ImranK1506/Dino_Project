@@ -5,6 +5,9 @@
 * run `yarn build`
 * run `yarn start`
 
+## Preview
+[Dinographic](https://609eb8b47b22e900d2689ea3--udacity-ij-dino-project.netlify.app/)
+
 ## Student Instructions
 
 ### Big Picture
